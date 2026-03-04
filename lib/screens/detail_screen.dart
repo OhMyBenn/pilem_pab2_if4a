@@ -20,7 +20,7 @@ class DetailScreen extends StatelessWidget {
             children: [
               Image.network(
                 'https://image.tmdb.org/t/p/w500${movie.posterPath}',
-                height: 450,
+                height: 520,
                 width: double.infinity,
                 fit: BoxFit.fitWidth,
               ),
