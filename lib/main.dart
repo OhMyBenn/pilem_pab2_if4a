@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:pilem/screens/favorite_screen.dart';
 import 'package:pilem/screens/home_screen.dart';
+import 'package:pilem/screens/search_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -33,8 +35,8 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> _screens = [
       const HomeScreen(),
-      const Placeholder(),
-      const Placeholder(),
+      const SearchScreen(),
+      const FavoriteScreen(),
   ];
 
   void _onItemTapped(int index) {
